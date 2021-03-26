@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	border: #fff;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+header {
+	background: darkslategray;
+	color:#fff ;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 2px solid #eb491d;
+}
+header a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header .current a {
+	color: #eb491d;
+}
+
+ ul {
+	margin: 0;
+	padding: 0;
+}
+
+.button_1 {
+
+    height: 35px;
+    background: #eB491d;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+header li {
+	display: inline;
+    float: left;
+	padding: 0 20 20 0;
+
+}
+
+header #branding {
+
+    float: left;
+}
+
+header #brading h1 {
+
+    margin:0;
+}
+
+header nav {
+
+    float: right;
+    
+}
+
+.highlight {
+    color: #eb491d;
+    font-weight: bold;
+}
+
+#showcase {
+min-height: 400px;
+background: url('../img/gigi-logo.png') no-repeat;
+opacity: 0.5;
+text-align: center;
+color: #eb491d;
+}
+
+.container p{
+    color:#fff ;
+    margin-top: 120px;
+    font-size: 20px;
+}
+h1 {
+    font-size: 30px;
+    color: #fff;
+}
+#newsletter {
+    height: 30px;
+    padding: 15px;
+    color: #ffffff;
+    background:#35424a ;
+
+}
+#newsletter h1 {
+    float: left;
+}
+#newsletter form {
+    float: right;
+    margin-top: 5px;
+}
+#newsletter input[type="Email"] {
+
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes {
+
+    margin-bottom: 20px;
+
+}
+
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+#boxes .box img {
+    
+    width: 200px;
+}
+#boxes .box p {
+    color: black;
+    font-size: 16px;
+    margin-top:10px;
+}
+
+footer {
+    padding: 30px;
+    margin-top: 400px;
+    color: #fff;
+    background-color: #eB491d;
+    text-align: center;
+}
+
+.box {
+    height:auto;
+}
